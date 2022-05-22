@@ -1,0 +1,134 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+#title {
+    background-color: #ff4c68;
+    color: white;
+    height: 490px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-weight: 800;
+}
+/* Navigation bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2.5rem;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(30deg);
+}
+
+#features {
+    padding: 5% 15%;
+    background-color: white;
+    position: relative;  /*absolute will make us set height of every section*/
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4% 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-weight: 800;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+    font-weight: 300;
+}
+
+#features i {
+    color: #ff4c68;
+    width: 100px;
+    height: 100px;
+}
+
+#testimonials {
+    
+    text-align: center;
+    color: white;
+    background-color: #ef8172;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+#testimonials h2 {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.testimonials-img {
+    border-radius: 50%;
+    width: 17%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-img {
+    padding: 4%;
+    width: 20%;
+}
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+    margin : 4% auto;
+}
+
+#pricing>p {
+    color: #8f8f8f;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+#cta h3 {
+    font-size: 3rem;
+    padding: 7% 15%;
+}
+
+.cta-btn {
+    margin: 2% 2%;
+}
+
+#footer {
+    text-align: center;
+    color: #8f8f8f;
+}
